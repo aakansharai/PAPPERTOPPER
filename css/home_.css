@@ -1,0 +1,142 @@
+body{
+  margin:0;
+  background-color: #F9F3EE;
+  text-align: center;
+}
+
+.Top{
+  margin: 0;
+
+}
+
+.white-cut1{
+  width:100%;
+  height: 10%;
+  position: relative;
+  float: ;
+}
+
+.btn {
+  background: #36322f;
+  background-image: -webkit-linear-gradient(top, #36322f, #FFFF);
+  background-image: -moz-linear-gradient(top, #36322f, #FFFF);
+  background-image: -ms-linear-gradient(top, #36322f, #FFFF);
+  background-image: -o-linear-gradient(top, #36322f, #FFFF);
+  background-image: linear-gradient(to bottom, #36322f, #FFFF);
+  -webkit-border-radius: 15;
+  -moz-border-radius: 15;
+  border-radius: 15px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  position: absolute;
+  top:2%;
+}
+
+.btn:hover {
+  background: #62737d;
+  background-image: -webkit-linear-gradient(top, #62737d, #606b85);
+  background-image: -moz-linear-gradient(top, #62737d, #606b85);
+  background-image: -ms-linear-gradient(top, #62737d, #606b85);
+  background-image: -o-linear-gradient(top, #62737d, #606b85);
+  background-image: linear-gradient(to bottom, #62737d, #606b85);
+  text-decoration: none;
+}
+
+.white-cut2{
+  width:100%;
+  height: 10%;
+  position: relative;
+  float: left;
+}
+
+
+
+.books{
+  width: 100%;
+  margin-top: 0px;
+  position: relative;
+  bottom:5px;
+}
+.books img{
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  background-attachment: fixed;
+
+}
+.book1{
+  width:100%;
+}
+
+.book1 img{
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  image-resolution: snap;
+}
+
+.text1{
+  font-size: 8rem;
+  color: #9F8189;
+  position: absolute;
+  top: 10%;
+  right: 22%;
+  font-family: 'Odibee Sans', cursive;
+}
+.text11{
+  font-size: 8rem;
+  color: Black;
+  position: absolute;
+  top: 10%;
+  right: 5.5%;
+  font-family: 'Odibee Sans', cursive;
+}
+
+.text2{
+  font-size: 1.5rem;
+  color:grey;
+  position: absolute;
+  top:42.5%;
+  right:6%;
+  font-weight: lighter;
+  font-family: 'Odibee Sans', cursive;
+}
+
+.icon1{
+  width: 20%;
+  position: absolute;
+  top: 180%;
+  left: 20%;
+}
+.icon2{
+  width: 20%;
+  position: absolute;
+  top: 180%;
+  right: 20%;
+}
+
+.Middle{
+ height: 800px;
+}
+
+.text4{
+  font-size: 1.5rem;
+  text-align: left;
+  position: relative;
+  left:26.5%;
+  top:55%;
+  font-family: 'Odibee Sans', cursive;
+}
+.text5{
+  font-size: 1.5rem;
+  text-align: right;
+  position: relative;
+  right:28%;
+  top:48%;
+  font-family: 'Odibee Sans', cursive;
+}

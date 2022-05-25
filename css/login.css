@@ -1,0 +1,79 @@
+body{
+  background-color: #FBEEE6;
+  margin: 0;
+
+}
+
+.container{
+  background-color: white;
+  color: white;
+  width: 30%;
+  height: 70%;
+  position: absolute;
+  top:10%;
+  left: 35%;
+}
+
+.text1{
+  color:black;
+  position: absolute;
+  left:39%;
+  font-family: 'Jockey One', sans-serif;
+  font-weight: normal;
+}
+
+.input1{
+  text-align: center;
+  position: absolute;
+  top:30%;
+  left:25%;
+  width:50%;
+  height: 5%;
+}
+
+.input2{
+  text-align: center;
+  position: absolute;
+  top:40%;
+  left:25%;
+  width:50%;
+  height: 5%;
+}
+
+.input3{
+  text-align: center;
+  position: absolute;
+  top:60%;
+  left:26%;
+  width:50%;
+  height:10%;
+  color: blue;
+}
+
+.input3 {
+  background: #FBEEE6;
+  background-image: -webkit-linear-gradient(top, #FBEEE6, #9F8189);
+  background-image: -moz-linear-gradient(top, #FBEEE6, #9F8189);
+  background-image: -ms-linear-gradient(top, #FBEEE6, #9F8189);
+  background-image: -o-linear-gradient(top, #FBEEE6, #9F8189);
+  background-image: linear-gradient(to bottom, #FBEEE6, #9F8189);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.input3:hover {
+  background: #fccaf6;
+  text-decoration: none;
+}
+
+.exit{
+  width:6%;
+  position: relative;
+  float: right;
+}

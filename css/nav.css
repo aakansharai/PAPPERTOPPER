@@ -1,0 +1,68 @@
+body{
+  margin:0;
+}
+
+.nav{
+  margin-top:-30px;
+  background-color: #1B252B;
+  height: 80px;
+  width: 100%;
+}
+
+.nav li {
+  float: left;
+  margin-left: 10%;
+  list-style: none;
+  margin-top: 25px;
+
+}
+
+.nav ul {
+  margin-left: 20%;
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Jockey One', sans-serif;
+}
+
+
+.nav a{
+  text-decoration: none;
+  color:white;
+}
+
+.nav a:hover{
+  color: grey;
+}
+
+.logo{
+  width:120px;
+  position: absolute;
+  top:0.1%;
+  left:1%;
+}
+
+.btn {
+  position: absolute;
+  background: #FBEEE6;
+  background-image: -webkit-linear-gradient(top, #FBEEE6, #9F8189);
+  background-image: -moz-linear-gradient(top, #FBEEE6, #9F8189);
+  background-image: -ms-linear-gradient(top, #FBEEE6, #9F8189);
+  background-image: -o-linear-gradient(top, #FBEEE6, #9F8189);
+  background-image: linear-gradient(to bottom, #FBEEE6, #9F8189);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  position: absolute;
+  top:20px;
+  right:60px;
+}
+
+.btn:hover {
+  background: #fccaf6;
+  text-decoration: none;
+}

@@ -1,0 +1,91 @@
+body {
+  background-color:#1B252B;
+}
+
+#logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 500px;
+  height: 500px;
+  transform: translate(-50%, -50%);
+  animation: fill 0.5s ease forwards 3.5s;
+}
+
+#logo path:nth-child(1) {
+  stroke-dasharray: 112.43338775634766px;
+  stroke-dashoffset: 112.43338775634766px;
+  animation: line-anim 2s ease forwards;
+}
+
+#logo path:nth-child(2) {
+  stroke-dasharray: 122.57304382324219px;
+  stroke-dashoffset: 122.57304382324219px;
+  animation: line-anim 2s ease forwards 0.3s;
+}
+
+#logo path:nth-child(3) {
+  stroke-dasharray: 112.43345642089844px;
+  stroke-dashoffset: 112.43345642089844px;
+  animation: line-anim 2s ease forwards 0.6s;
+}
+
+#logo path:nth-child(4) {
+  stroke-dasharray: 115.99201965332031px;
+  stroke-dashoffset: 115.99201965332031px;
+  animation: line-anim 2s ease forwards 0.2s;
+}
+
+#logo path:nth-child(5) {
+  stroke-dasharray: 137.26644897460938px;
+  stroke-dashoffset: 137.26644897460938px;
+  animation: line-anim 2s ease forwards 0.12s;
+}
+
+#logo path:nth-child(6) {
+  stroke-dasharray: 84.16802978515625px;
+  stroke-dashoffset: 84.16802978515625px;
+  animation: line-anim 2s ease forwards 0.15s;
+}
+
+#logo path:nth-child(7) {
+  stroke-dasharray: 141.4878692626953px;
+  stroke-dashoffset: 141.4878692626953px;
+  animation: line-anim 2s ease forwards 0.18s;
+}
+
+#logo path:nth-child(8) {
+  stroke-dasharray: 112.43352508544922px;
+  stroke-dashoffset: 112.43352508544922px;
+  animation: line-anim 2s ease forwards 0.21s;
+}
+
+#logo path:nth-child(9) {
+  stroke-dasharray: 112.43350982666016px;
+  stroke-dashoffset: 112.43350982666016px;
+  animation: line-anim 2s ease forwards 0.21s;
+}
+
+#logo path:nth-child(10) {
+  stroke-dasharray: 115.99200439453125px;
+  stroke-dashoffset: 115.99200439453125px;
+  animation: line-anim 2s ease forwards 0.21s;
+}
+
+#logo path:nth-child(11) {
+  stroke-dasharray: 137.26690673828125px;
+  stroke-dashoffset: 137.26690673828125px;
+  animation: line-anim 2s ease forwards 0.21s;
+}
+
+@keyframes line-anim {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes fill {
+  to {
+    fill: white;
+  }
+}
